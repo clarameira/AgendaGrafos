@@ -42,8 +42,9 @@ int main(){
         int indiceContato1 = -1;
         int indiceContato2 = -1;
 
+        int i; 
         //Encontrar os índices dos contatos pelos nomes
-        for (int i = 0; i < numVertices; i++) {
+        for (i = 0; i < numVertices; i++) {
             if (strcmp(grafo[i]->nome, nomeContato1) == 0) {
                 indiceContato1 = i;
             }
