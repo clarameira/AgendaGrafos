@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define CONTATOS 32
+#define CONTATOS 26
 #define DIGITOSCEL 2
 
 //Estrutura de um vértice em um grafo (representando um contato)
