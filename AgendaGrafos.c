@@ -38,8 +38,9 @@ int verificarRelacao(char *nomeContato1, char *nomeContato2){
     indiceContato1 = -1;
     indiceContato2 = -1;
 
+    int i;
     //Encontrar os índices dos contatos pelos nomes
-    for(int i = 0; i < numVertices; i++){
+    for(i = 0; i < numVertices; i++){
         if(strcmp(grafo[i]->nome, nomeContato1) == 0){
             indiceContato1 = i;
         }
