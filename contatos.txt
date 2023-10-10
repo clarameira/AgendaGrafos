@@ -1,3 +1,28 @@
-Alice 84898764532 alice@gmail.comm
-Ana 88990987878 ana@hotmail.com
-Joao 84990987865 joao@gmail.com 
+NOME  TELEFONE   EMAIL 
+Alisson 51898764532 alisson@gmail.com
+Ederson 11990987878 ederson@hotmail.com
+Weverton 68990987865 weverton@gmail.com 
+Danilo 31098989095 danilo@hotmail.com
+Alex Sandro 11990987656 alex@gmail.com
+Daniel Alves 75334321212 daniel@gmail.com
+Alex Telles 51990989098 alexte@hotmail.com
+Eder Militao 118898765 eder@hotmail.com
+Marquinhos 11776543432 marquinhos@hotmail.com
+Thiaguinho 47887654567 thiaguinho@gmail.com
+Bremer 7556542312 bremer@gmail.com
+Bruno Guimaraes 21889843219 bruno@gmail.com
+Casemiro 1189872538 casemiro@gmail.com
+Fabinho 11889988747 fabinho@gmail.com
+Lucas Paquetá 2190986754 paqueta@hotmail.com
+Everton Ribeiro 11990985421 everton@gmail.com
+Antony 11776570987 antony@hotmail.com
+Gabriel Jesus 11887543421 gabrielj@hotmail.com
+Neymar 11889987654 neymar@gmail.com
+Raphinha 51789900987 rapha@gmail.com
+Richarlison 27777766543 richarlison@gmail.com
+Vinicius Junior 21635122334 vini@gmail.com
+Gabriel Martinelli 11778765121 martinelli@hotmail.com
+Pedro 21889873425 pedro@hotmail.com
+Rodrygo 11990009090 rodrygo@gmail.com 
+
+//Nomes dos jogadores da seleção brasileira da última copa em 2022, com telefones fictícios mas com o DDD do seu estado de origem real e emails fictícios também.
