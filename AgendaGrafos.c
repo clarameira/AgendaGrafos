@@ -6,7 +6,7 @@
 #define CONTATOS 26
 #define DIGITOSCEL 2
 
-//Estrutura de um vértice em um grafo (representando um contato)
+//Estrutura de um vértice em um grafo (representando um contato, que é cada jogador.)
 struct Vertice{
     char nome[50];
     char celular[20];
@@ -17,7 +17,7 @@ struct Vertice{
 struct Vertice* grafo[CONTATOS];
 int numVertices = 0;
 
-//Função para adicionar um vértice (contato) ao grafo
+//Função para adicionar um vértice (jogador) ao grafo
 void adicionarVertice(char *nome, char *celular, char *email){
     if (numVertices < CONTATOS){
         struct Vertice* novoContato = (struct Vertice*)malloc(sizeof(struct Vertice));
@@ -54,5 +54,5 @@ int verificarRelacao(char *nomeContato1, char *nomeContato2){
             return (1); //Relação encontrada
         }
     }
-     return (0); //Sem relação encontrada
+     return(0); //Sem relação encontrada
 }
