@@ -31,7 +31,7 @@ void adicionarVertice(char *nome, char *celular, char *email){
     }
 }
 
-//Função para verificar se os dois primeiros dígitos do número de celular são iguais, as arestas.
+//Função para verificar se os dois primeiros dígitos dos números de celular são iguais, ou seja, o "DDD".
 int verificarRelacao(char *nomeContato1, char *nomeContato2){
     int indiceContato1;
     int indiceContato2;
@@ -49,7 +49,7 @@ int verificarRelacao(char *nomeContato1, char *nomeContato2){
         }
     }
 
-    if(indiceContato1 != -1 && indiceContato2 != -1){ // Verificar se os dois primeiros dígitos dos números de celular são iguais, ou seja, o "DDD".
+    if(indiceContato1 != -1 && indiceContato2 != -1){ 
         if(strncmp(grafo[indiceContato1]->celular, grafo[indiceContato2]->celular, DIGITOSCEL) == 0){
             return (1); //Relação encontrada
         }
